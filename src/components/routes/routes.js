@@ -1,11 +1,9 @@
-
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../Home";
-import Main from "../Main";
-import About from "../About";
-import TopRated from "../TopRated";
-import Cart from "../Cart";
-
+import Main from "../../layout/Main";
+import Home from "../../pages/Home";
+import About from "../../pages/About";
+import TopRated from "../../pages/TopRated";
+import Cart from "../../pages/Cart";
 const routes = createBrowserRouter([
     {
         path: "/",
@@ -30,6 +28,4 @@ const routes = createBrowserRouter([
         ],
     },
 ]);
-
-
 export default routes;
